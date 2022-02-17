@@ -175,7 +175,7 @@ public class NoteServlet extends HttpServlet {
 		}
 		// Step 3: redirect back to UserServlet dashboard (note: remember to change the
 		// url to your project name)
-		response.sendRedirect("http://localhost:8090/NotePad2/NoteServlet/dashboard");
+		response.sendRedirect("http://localhost:8091/NotePad2/NoteServlet/dashboard");
 	}
 
 
