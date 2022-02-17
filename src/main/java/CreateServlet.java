@@ -66,7 +66,7 @@ public class CreateServlet extends HttpServlet {
 //				writer.println("<h1>" + "You have successfully created a note!" +
 //				"</h1>");
 //				writer.close();
-				 response.sendRedirect("http://localhost:8090/NotePad2/NoteServlet/dashboard");
+				 response.sendRedirect("http://localhost:8091/NotePad2/NoteServlet/dashboard");
 			 }
 		}
 		//Step 8: catch and print out any exception
